@@ -1,73 +1,41 @@
 {
-	"animations": {
-		"Hammer": {
-			"frames": [
-				[
-					32.0,
-					0.0,
-					16.0,
-					24.0
-				],
-				[
-					48.0,
-					0.0,
-					16.0,
-					24.0
-				]
+	"animations": 
+	{
+		"Hammer": 
+		{
+			"frames": 
+			[
+				[48, 0, 24, 24]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Idle": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					24.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					24.0
-				]
+		"Idle": 
+		{
+			"frames": 
+			[
+				[0, 0, 16, 24],
+				[16, 0, 16, 24],
+				[0, 0, 16, 24],
+				[32, 0, 16, 24]
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
+	"variations": 
+	{
+		"Day": 
+		{
 			"source": "HammerBro.png",
-			"rect": [0, 0, 64, 24]
+			"rect": [0, 0, 72, 24]
 		},
-		"Underground": {
+		"Night": 
+		{
 			"source": "HammerBro.png",
-			"rect": [64, 0, 64, 24]
+			"rect": [0, 24, 72, 24]
 		},
-		"Castle": {"link": "Underground"},
-		"GhostHouse": {"link": "Underground"},
-		"Underwater": {
-			"source": "HammerBro.png",
-			"rect": [128, 0, 64, 24]
-		},
-		"CastleWater": {"link": "Underwater"},
-		"Snow": {
-			"source": "HammerBro.png",
-			"rect": [0, 24, 64, 24]
-		},
-		"Space": {
-			"source": "HammerBro.png",
-			"rect": [64, 24, 64, 24]
-		},
-		"Volcano": {
-			"source": "HammerBro.png",
-			"rect": [128, 24, 64, 24]
-		},
-		"Bonus": {
-			"source": "HammerBro.png",
-			"rect": [0, 48, 64, 24]
-		}
+		"Space": {"link":"Night"},
+		"Volcano": {"link":"Night"}
 	}
 }

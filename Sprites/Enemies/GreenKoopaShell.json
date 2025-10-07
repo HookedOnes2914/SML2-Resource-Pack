@@ -1,138 +1,45 @@
 {
-	"animations": {
-		"Idle": {
-			"frames": [
-				[
-					0.0,
-					16.0,
-					16.0,
-					16.0
-				]
+	"animations": 
+	{
+		"Idle": 
+		{
+			"frames": 
+			[
+				[72, 8, 24, 16]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		},
-		"Spin": {
-			"frames": [
-				[
-					16.0,
-					16.0,
-					16.0,
-					16.0
-				],
-				[
-					32.0,
-					16.0,
-					16.0,
-					16.0
-				],
-				[
-					48.0,
-					16.0,
-					16.0,
-					16.0
-				],
-				[
-					0.0,
-					16.0,
-					16.0,
-					16.0
-				]
+		"Spin": 
+		{
+			"frames": 
+			[
+				[96, 8, 24, 16],
+				[120, 8, 24, 16],
+				[144, 8, 24, 16],
+				[72, 8, 24, 16]				
 			],
-			"speed": 15.0,
+			"speed": 12,
 			"loop": true
 		},
-		"Wake": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					16.0
-				],
-				[
-					0.0,
-					16.0,
-					16.0,
-					16.0
-				]
+		"Wake": 
+		{
+			"frames": 
+			[
+				[168, 8, 24, 16],
+				[72, 8, 24, 16]
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
+	
+	"variations": 
+	{
+		"default": 
+		{
 			"source": "KoopaTroopa.png",
-			"rect": [
-				32.0,
-				0.0,
-				64.0,
-				32.0
-			]
-		},
-		"Underground": {
-			"source": "KoopaTroopa.png",
-			"rect": [
-				128.0,
-				0.0,
-				64.0,
-				32.0
-			]
-		},
-		"Castle": {
-			"link": "Underground"
-		},
-		"GhostHouse": {
-			"link": "Underground"
-		},
-		"Underwater": {
-			"source": "KoopaTroopa.png",
-			"rect": [
-				224.0,
-				0.0,
-				64.0,
-				32.0
-			]
-		},
-		"CastleWater": {
-			"link": "Underwater"
-		},
-		"Snow": {
-			"source": "KoopaTroopa.png",
-			"rect": [
-				32.0,
-				32.0,
-				64.0,
-				32.0
-			]
-		},
-		"Space": {
-			"source": "KoopaTroopa.png",
-			"rect": [
-				128.0,
-				32.0,
-				64.0,
-				32.0
-			]
-		},
-		"Volcano": {
-			"source": "KoopaTroopa.png",
-			"rect": [
-				224.0,
-				32.0,
-				64.0,
-				32.0
-			]
-		},
-		"Bonus": {
-			"source": "KoopaTroopa.png",
-			"rect": [
-				32.0,
-				48.0,
-				64.0,
-				32.0
-			]
+			"rect": [0, 0, 192, 48]
 		}
 	}
 }

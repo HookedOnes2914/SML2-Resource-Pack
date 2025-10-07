@@ -1,33 +1,24 @@
 {
-	"animations": {
-		"default": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					16.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					16.0
-				]
+	"animations": 
+	{
+		"default": 
+		{
+			"frames": 
+			[
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[32, 0, 16, 16],
+				[16, 0, 16, 16]
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "Sigebou.png",
-			"rect": [
-				0.0,
-				0.0,
-				32.0,
-				16.0
-			]
+	"variations": 
+	{
+		"default": 
+		{
+			"source": "Sigebou.png"
 		}
 	}
 }

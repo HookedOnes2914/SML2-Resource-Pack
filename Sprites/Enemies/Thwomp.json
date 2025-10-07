@@ -1,51 +1,39 @@
 {
-	"animations": {
-		"Fall": {
-			"frames": [
-				[
-					48.0,
-					0.0,
-					24.0,
-					32.0
-				]
+	"animations": 
+	{
+		"Fall": 
+		{
+			"frames":
+			[
+				[48, 0, 24, 32]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Idle": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					24.0,
-					32.0
-				]
+		"Idle": 
+		{
+			"frames": 
+			[
+				[0, 0, 24, 32]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Look": {
-			"frames": [
-				[
-					24.0,
-					0.0,
-					24.0,
-					32.0
-				]
+		"Look": 
+		{
+			"frames": 
+			[
+				[24, 0, 24, 32]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "Thwomp.png",
-			"rect": [
-				0.0,
-				0.0,
-				72.0,
-				32.0
-			]
+	"variations": 
+	{
+		"default": 
+		{
+			"source": "Thwomp.png"
 		}
 	}
 }

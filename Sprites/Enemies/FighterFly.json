@@ -1,67 +1,39 @@
 {
-	"animations": {
-		"Fly": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					16.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					16.0
-				]
+	"animations": 
+	{
+		"Fly": 
+		{
+			"frames": 
+			[
+				[24, 0, 24, 16],
+				[48, 0, 24, 16]
 			],
-			"speed": 15.0,
+			"speed": 12,
 			"loop": true
 		},
-		"Idle": {
-			"frames": [
-				[
-					32.0,
-					0.0,
-					16.0,
-					16.0
-				]
+		"Idle": 
+		{
+			"frames": 
+			[
+				[0, 0, 24, 16]
 			],
-			"speed": 5.0,
+			"speed": 5,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
+	"variations": 
+	{
+		"Day": 
+		{
 			"source": "FighterFly.png",
-			"rect": [0, 0, 48, 16]
+			"rect": [0, 0, 72, 16]
 		},
-		"Underground": {
+		"Night": 
+		{
 			"source": "FighterFly.png",
-			"rect": [48, 0, 48, 16]
+			"rect": [0, 16, 72, 16]
 		},
-		"GhostHouse": {"link": "Underground"},
-		"Castle": {"link": "Underground"},
-		"Underwater": {
-			"source": "FighterFly.png",
-			"rect": [96, 0, 48, 16]
-		},
-		"CastleWater": {"link": "Underwater"},
-		"Snow": {
-			"source": "FighterFly.png",
-			"rect": [0, 16, 48, 16]
-		},
-		"Space": {
-			"source": "FighterFly.png",
-			"rect": [48, 16, 48, 16]
-		},
-		"Volcano": {
-			"source": "FighterFly.png",
-			"rect": [96, 16, 48, 16]
-		},
-		"Bonus": {
-			"source": "FighterFly.png",
-			"rect": [0, 32, 48, 16]
-		}
+		"Space": {"link":"Night"},
+		"Volcano": {"link":"Night"}
 	}
 }

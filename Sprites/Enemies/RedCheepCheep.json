@@ -1,28 +1,22 @@
 {
-	"animations": {
-		"default": {
+	"animations": 
+	{
+		"default": 
+		{
 			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					16.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					16.0
-				]
+				[0, 0, 16, 16],
+				[16, 0, 16, 16]
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
+	"variations": 
+	{
+		"default": 
+		{
 			"source": "CheepCheep.png",
-			"rect": [32, 32, 32, 16]
+			"rect": [0, 0, 32, 16]
 		}
 	}
 }

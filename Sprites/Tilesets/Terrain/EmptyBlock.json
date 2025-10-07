@@ -8,9 +8,8 @@
 	},
 	"variations": {
 		"default": {
-			"SMB1": { "source": "Overworld.png", "rect": [64, 0, 16, 16] },
-			"SMBLL": { "source": "OverworldLL.png", "rect": [64, 0, 16, 16] },
-			"SMBANN": { "source": "OverworldANN.png", "rect": [64, 0, 16, 16] }
+			"Day": { "source": "Overworld.png", "rect": [64, 0, 16, 16] },
+			"Night": { "source": "OverworldNight.png", "rect": [64, 0, 16, 16] }
 		},
 		"Underground": {
 			"SMB1": { "source": "Underground.png", "rect": [64, 0, 16, 16] },

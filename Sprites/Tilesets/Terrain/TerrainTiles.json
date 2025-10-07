@@ -1,14 +1,11 @@
 {
 	"variations": {
-		"default": {
-			"SMB1": {
+		"Overworld": {
+			"Day": {
 				"source": "Overworld.png"
 			},
-			"SMBLL": {
-				"source": "OverworldLL.png"
-			},
-			"SMBANN": {
-				"source": "OverworldANN.png"
+			"Night": {
+				"source": "OverworldNight.png"
 			}
 		},
 		"Underground": {

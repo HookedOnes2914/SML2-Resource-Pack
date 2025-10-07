@@ -1,65 +1,42 @@
 {
-	"animations": {
-		"Hit": {
-			"frames": [
-				[
-					32.0,
-					0.0,
-					16.0,
-					16.0
-				]
+	"animations": 
+	{
+		"Hit": 
+		{
+			"frames": 
+			[
+				[48, 0, 24, 24],
+				[72, 0, 24, 24]
 			],
-			"speed": 5.0,
+			"speed": 16,
 			"loop": true
 		},
-		"Walk": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					16.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					16.0
-				]
+		"Walk": 
+		{
+			"frames": 
+			[
+				[0, 0, 16, 24],
+				[16, 0, 16, 24],
+				[0, 0, 16, 24],
+				[32, 0, 16, 24],
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
+	"variations": 
+	{
+		"Day": 
+		{
 			"source": "BobOmb.png",
-			"rect": [0, 0, 48, 16]
+			"rect": [0, 0, 96, 72]
 		},
-		"Underground": {
+		"Night": 
+		{
 			"source": "BobOmb.png",
-			"rect": [0, 16, 48, 16]
+			"rect": [0, 72, 96, 72]
 		},
-		"GhostHouse": {"link": "Underground"},
-		"Castle": {
-			"source": "BobOmb.png",
-			"rect": [0, 32, 48, 16]
-		},
-		"Snow": {
-			"source": "BobOmb.png",
-			"rect": [0, 48, 48, 16]
-		},
-		"Space": {
-			"source": "BobOmb.png",
-			"rect": [0, 64, 48, 16]
-		},
-		"Volcano": {
-			"source": "BobOmb.png",
-			"rect": [0, 80, 48, 16]
-		},
-		"Bonus": {
-			"source": "BobOmb.png",
-			"rect": [0, 96, 48, 16]
-		}
+		"Space": {"link":"Night"},
+		"Volcano": {"link":"Night"}
 	}
 }

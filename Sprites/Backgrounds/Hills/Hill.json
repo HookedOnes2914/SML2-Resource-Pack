@@ -1,24 +1,28 @@
 {
-	"animations": {
-		"default": {
-			"frames": [[0, 0, 512, 512]],
-			"speed": 5.0,
+	"animations": 
+	{
+		"default": 
+		{
+			"frames": 
+			[
+				[0, 0, 512, 512],
+				[520, 0, 512, 512]
+			],
+			"speed": 8,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
-			"SMB1": {
-				"Day": {
-					"source": "Overworld.png"
-				},
-				"Night": {
-					"source": "OverworldNight.png"
-				}
+	"variations": 
+	{
+		"Overworld": 
+		{
+			"Day": 
+			{
+				"source": "Overworld.png"
 			},
-			"SMBLL": {
-				"Day": {"source": "OverworldLL.png"},
-				"Night": {"source": "OverworldNightLL.png"}
+			"Night": 
+			{
+				"source": "OverworldNight.png"
 			}
 		},
 		"Desert": {

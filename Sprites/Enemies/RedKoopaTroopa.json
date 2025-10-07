@@ -1,42 +1,25 @@
 {
-	"animations": {
-		"Walk": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					32.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					32.0
-				]
+	"animations": 
+	{
+		"Walk": 
+		{
+			"frames": 
+			[
+				[0, 24, 24, 24],
+				[24, 24, 24, 24],
+				[0, 24, 24, 24],
+				[48, 24, 24, 24]
 			],
-			"speed": 5.0,
+			"speed": 12,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
+	"variations": 
+	{
+		"default": 
+		{
 			"source": "KoopaTroopa.png",
-			"rect": [
-				96.0,
-				64.0,
-				32.0,
-				32.0
-			]
-		},
-		"Snow": {
-			"source": "KoopaTroopa.png",
-			"rect": [
-				192.0,
-				64.0,
-				32.0,
-				32.0
-			]
+			"rect": [0, 0, 192, 48]
 		}
 	}
 }

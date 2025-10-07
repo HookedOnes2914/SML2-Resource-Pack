@@ -1,0 +1,2 @@
+- Finish Mario sprites
+	- Replace current Mario sprites with Glacial's fixed sprites
