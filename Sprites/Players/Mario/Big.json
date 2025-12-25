@@ -176,6 +176,7 @@
 		{
 			"source": "BigNight.png"
 		},
-		"Volcano": {"link":"Night"}
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }

@@ -1,9 +1,13 @@
 {
 	"properties":
 	{
-		"use_sprite": false
+		"use_sprite": true
 	},
-	"variations": {
-		"default": {"source": "NULL"}
+	"variations": 
+	{
+		"default": 
+		{
+			"source": "SmallCastle.png"
+		}
 	}
 }

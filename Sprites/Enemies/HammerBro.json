@@ -5,7 +5,7 @@
 		{
 			"frames": 
 			[
-				[48, 0, 24, 24]
+				[48, 0, 24, 32]
 			],
 			"speed": 1,
 			"loop": true
@@ -14,10 +14,10 @@
 		{
 			"frames": 
 			[
-				[0, 0, 16, 24],
-				[16, 0, 16, 24],
-				[0, 0, 16, 24],
-				[32, 0, 16, 24]
+				[0, 0, 16, 32],
+				[16, 0, 16, 32],
+				[0, 0, 16, 32],
+				[32, 0, 16, 32]
 			],
 			"speed": 8,
 			"loop": true
@@ -28,14 +28,15 @@
 		"Day": 
 		{
 			"source": "HammerBro.png",
-			"rect": [0, 0, 72, 24]
+			"rect": [0, 0, 72, 32]
 		},
 		"Night": 
 		{
 			"source": "HammerBro.png",
-			"rect": [0, 24, 72, 24]
+			"rect": [0, 32, 72, 32]
 		},
 		"Space": {"link":"Night"},
-		"Volcano": {"link":"Night"}
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }

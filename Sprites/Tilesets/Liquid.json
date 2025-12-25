@@ -1,8 +1,18 @@
 {
-	"variations": {
-		"default": {
-			"Day": {"source": "Liquids.png"},
-			"Night": {"source": "NightLiquids.png"}
+	"variations": 
+	{
+		"config:Transparency": 
+		{
+			"Transparent": 
+			{
+				"source": "Liquid.png",
+				"rect": [0, 0, 64, 128]
+			},
+			"Dithered": 
+			{
+				"source": "Liquid.png",
+				"rect": [64, 0, 64, 128]
+			}
 		}
 	}
 }

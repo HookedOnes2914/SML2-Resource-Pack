@@ -2,24 +2,39 @@
 	"name": "CHAR_MARIO",
 	"physics": 
 	{
-		"AIR_ACCEL": 6,
-		"AIR_SKID": 0.5,
-		"DECEL": 6,
-		"FALL_GRAVITY": 10,
-		"GROUND_RUN_ACCEL": 6,
-		"GROUND_WALK_ACCEL": 6,
-		"JUMP_GRAVITY": 10,
+		"JUMP_GRAVITY": 11,
 		"JUMP_HEIGHT": 275,
 		"JUMP_INCR": 10,
-		"SWIM_GRAVITY": 6.5,
-		"SWIM_SPEED": 65,
-		"MAX_FALL_SPEED": 175,
-		"MAX_SWIM_FALL_SPEED": 75,
-		"RUN_SKID": 12,
-		"RUN_SPEED": 120,
+		"JUMP_CANCEL_DIVIDE": 1.5,
+		"JUMP_HOLD_SPEED_THRESHOLD": 0,
+			
+		"BOUNCE_HEIGHT": 200,
+		"BOUNCE_JUMP_HEIGHT": 300,
+
+		"FALL_GRAVITY": 15,
+		"MAX_FALL_SPEED": 200,
+		"CEILING_BUMP_SPEED": 45,
+
+		"WALK_SPEED": 80,
+		"GROUND_WALK_ACCEL": 6,
 		"WALK_SKID": 8,
-		"WALK_SPEED": 80
+
+		"RUN_SPEED": 120,
+		"GROUND_RUN_ACCEL": 6,
+		"RUN_SKID": 12,
+
+		"DECEL": 6,
+		"AIR_ACCEL": 6,
+		"AIR_SKID": 1,
+
+		"SWIM_SPEED": 65,
+		"SWIM_GROUND_SPEED": 45,
+		"SWIM_HEIGHT": 100,
+		"SWIM_GRAVITY": 6.5,
+		"MAX_SWIM_FALL_SPEED": 75,
+
+		"DEATH_JUMP_HEIGHT": 300
 	},
-	"small_hitbox_scale": [1.0, 1.0],
-	"big_hitbox_scale": [1.0, 1.0]
+	"small_hitbox_scale": [1, 1],
+	"big_hitbox_scale": [1, 1]
 }

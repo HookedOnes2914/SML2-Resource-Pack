@@ -1,84 +1,212 @@
 {
-	"animations": {
-		"AirAttack": {
-			"frames": [[32.0, 96.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Attack": {
-			"frames": [[224.0, 48.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Climb": {
-			"frames": [[192.0, 48.0, 32.0, 48.0], [160.0, 48.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Crouch": {
-			"frames": [[32.0, 0.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Die": {
-			"frames": [[64.0, 96.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Grow": {
-			"frames": [[0.0, 96.0, 32.0, 48.0], [0.0, 0.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Idle": {
-			"frames": [[0.0, 0.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Jump": {
-			"frames": [[192.0, 0.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Move": {
-			"frames": [[64.0, 0.0, 32.0, 48.0], [96.0, 0.0, 32.0, 48.0], [128.0, 0.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"Skid": {
-			"frames": [[160.0, 0.0, 32.0, 48.0]],
-			"speed": 5.0,
-			"loop": true
-		},
-		"SwimIdle": {
-			"frames": [[224.0, 0.0, 32.0, 48.0], [0.0, 48.0, 32.0, 48.0]],
-			"speed": 10.0,
-			"loop": true
-		},
-		"SwimUp": {
-			"frames": [
-				[224.0, 0.0, 32.0, 48.0],
-				[0.0, 48.0, 32.0, 48.0],
-				[32.0, 48.0, 32.0, 48.0],
-				[64.0, 48.0, 32.0, 48.0],
-				[96.0, 48.0, 32.0, 48.0],
-				[128.0, 48.0, 32.0, 48.0]
+	"properties":
+	{
+		"can_air_turn": true
+	},
+	"animations": 
+	{
+		"Idle": 
+		{
+			"frames": 
+			[
+				[1, 1, 32, 40]
 			],
-			"speed": 25.0,
+			"speed": 1,
 			"loop": true
 		},
-		"FaceForward": {
-			"frames": [[96, 96, 32, 48]],
-			"speed": 1.0,
+
+		"Crouch": 
+		{
+			"frames": 
+			[
+				[34, 1, 32, 40]
+			],
+			"speed": 1,
 			"loop": true
 		},
-		"Pose": {
-			"frames": [[128, 96, 32, 48]],
-			"speed": 1.0,
+
+		"Move": 
+		{
+			"frames": 
+			[
+				[67, 1, 32, 40],
+				[100, 1, 32, 40],
+				[133, 1, 32, 40],
+			],
+			"speed": 8,
+			"loop": true
+		},
+		
+		"Skid": 
+		{
+			"frames": 
+			[
+				[166, 1, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+		
+		"Jump": 
+		{
+			"frames":
+			[
+				[199, 1, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},	
+		
+		"Fall":
+		{
+			"frames": 
+			[
+				[232, 1, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+
+		"SwimIdle": 
+		{
+			"frames": 
+			[
+				[1, 42, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+		
+		"SwimUp": 
+		{
+			"frames": 
+			[
+				[34, 42, 32, 40],
+				[1, 42, 32, 40]
+			],
+			"speed": 8,
+			"loop": false
+		},
+
+		"Climb": 
+		{
+			"frames": 
+			[
+				[67, 42, 32, 40],
+				[100, 42, 32, 40]
+			],
+			"speed": 8,
+			"loop": true
+		},
+
+		"Die":
+		{
+			"frames": 
+			[
+				[133, 42, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+
+		"FaceForward": 
+		{
+			"frames": 
+			[
+				[166, 42, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},	
+
+		"Pose": 
+		{
+			"frames": 
+			[
+				[199, 42, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+
+		"Pipe": 
+		{
+			"frames": 
+			[
+				[166, 42, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},	
+		
+		"Grow": 
+		{
+			"frames": 
+			[
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40]
+			],
+			"speed": 6,
+			"loop": true
+		},
+		
+		"Attack": 
+		{
+			"frames": 
+			[
+				[1, 83, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+		
+		"CrouchAttack": 
+		{
+			"frames": 
+			[
+				[34, 83, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+		
+		"AirAttack": 
+		{
+			"frames": 
+			[
+				[67, 83, 32, 40]
+			],
+			"speed": 1,
 			"loop": true
 		}
+		
 	},
-	"variations": {
-		"default": {"source": "Fire.png"}
+	"variations": 
+	{
+		"Day": 
+		{
+			"source": "Fire.png"
+		},
+		
+		"Night": 
+		{
+			"source": "FireNight.png"
+		},
+		"Space": 
+		{
+			"source": "FireNight.png"
+		},
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }

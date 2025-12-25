@@ -35,6 +35,7 @@
 			"rect": [0, 24, 96, 24]
 		},
 		"Space": {"link":"Night"},
-		"Volcano": {"link":"Night"}
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }

@@ -1,69 +1,132 @@
 {
-	"animations": 
-	{
-		"default": 
-		{
-			"frames": 
-			[
-				[0, 0, 512, 512],
-				[520, 0, 512, 512]
-			],
-			"speed": 8,
-			"loop": true
-		}
-	},
 	"variations": 
 	{
 		"Overworld": 
 		{
 			"Day": 
 			{
-				"source": "Overworld.png"
+				"source": "Overworld.png",
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
+				},
+				"animations": 
+				{
+					"default": 
+					{
+						"frames": 
+						[
+							[0, 0, 512, 512], 
+							[520, 0, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
+				}
 			},
 			"Night": 
 			{
-				"source": "OverworldNight.png"
-			}
-		},
-		"Desert": {
-			"Day": {
-				"SMB1": {
-					"source": "Desert.png"
+				"source": "OverworldNight.png",
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
 				},
-				"SMBLL": {
-					"source": "DesertLL.png"
+				"animations": 
+				{
+					"default": 
+					{
+						"frames": 
+						[
+							[0, 0, 512, 512], 
+							[520, 0, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
 				}
 			},
-			"Night": {
-				"SMB1": {
-					"source": "DesertNight.png"
-				},
-				"SMBLL": {
-					"source": "DesertLLNight.png"
-				}
-			}
 		},
-		"Underground": {
-			"SMB1": {
+		"Underground": 
+		{
+			"Day": 
+			{
 				"source": "Underground.png",
-				"animations": {"default": {
-					"frames": [[0, 0, 512, 512], [512, 0, 512, 512]],
-					"speed": 5.0,
-					"loop": true
-				}}
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
+				}
 			},
-			"SMBLL": {
-				"source": "UndergroundLL.png",
-				"animations": {"default": {
-					"frames": [[0, 0, 512, 512], [512, 0, 512, 512]],
-					"speed": 5.0,
-					"loop": true
-				}}
+			"Night": 
+			{
+				"source": "UndergroundNight.png",
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
+				}
 			}
 		},
-		"Castle": {
-			"SMB1": {"source": "Castle.png"},
-			"SMBLL": {"source": "CastleLL.png"}
+		"Desert": 
+		{
+			"Day": 
+			{
+				"source": "Desert.png",
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
+				}
+			},
+			"Night": 
+			{
+				"source": "DesertNight.png",
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
+				}
+			}
+		},
+
+		"Castle": 
+		{
+			"Day": 
+			{
+				"source": "Castle.png",
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
+				}
+			},
+			"Night": 
+			{
+				"source": "CastleNight.png",
+				"properties":
+				{
+					"primary_layer_size":
+					[
+						[512, 512]
+					]
+				}
+			}
 		},
 		"GhostHouse": {
 			"SMB1": {"source": "GhostHouse.png"},

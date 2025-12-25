@@ -1,36 +1,37 @@
 {
-	"variations": {
-		"Overworld": {
-			"Day": {
+	"variations": 
+	{
+		"Overworld": 
+		{
+			"Day": 
+			{
 				"source": "Overworld.png"
 			},
-			"Night": {
+			"Night": 
+			{
 				"source": "OverworldNight.png"
 			}
 		},
-		"Underground": {
-			"SMB1": {
+		"Underground": 
+		{
+			"Day": 
+			{
 				"source": "Underground.png"
 			},
-			"SMBLL": {
-				"source": "UndergroundLL.png"
-			},
-			"SMBANN": {
-				"source": "UndergroundANN.png"
+			"Night": 
+			{
+				"source": "UndergroundNight.png"
 			}
 		},
-		"Desert": {
-			"SMB1": {
+		"Desert": 
+		{
+			"Day": 
+			{
 				"source": "Desert.png"
 			},
-			"SMBLL": {
-				"source": "DesertLL.png"
-			},
-			"SMBS": {
-				"source": "DesertSP.png"
-			},
-			"SMBANN": {
-				"source": "DesertANN.png"
+			"Night": 
+			{
+				"source": "DesertNight.png"
 			}
 		},
 		"Snow": {
@@ -153,15 +154,15 @@
 				"source": "GhostHouseLL.png"
 			}
 		},
-		"Castle": {
-			"SMB1": {
+		"Castle": 
+		{
+			"Day": 
+			{
 				"source": "Castle.png"
 			},
-			"SMBLL": {
-				"source": "CastleLL.png"
-			},
-			"SMBANN": {
-				"source": "CastleANN.png"
+			"Night": 
+			{
+				"source": "CastleNight.png"
 			}
 		},
 		"CastleWater": {

@@ -1,63 +1,50 @@
 {
-	"animations": {
-		"Off": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					16.0
-				],
-				[
-					16.0,
-					0.0,
-					16.0,
-					16.0
-				]
+	"animations": 
+	{
+		"On": 
+		{
+			"frames": 
+			[
+				[0, 0, 16, 16],
+				[16, 0, 16, 16]
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		},
-		"On": {
-			"frames": [
-				[
-					0.0,
-					16.0,
-					16.0,
-					16.0
-				],
-				[
-					16.0,
-					16.0,
-					16.0,
-					16.0
-				]
+		"Off": 
+		{
+			"frames": 
+			[
+				[32, 0, 16, 16],
+				[48, 0, 16, 16]
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		},
-		"default": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					16.0,
-					16.0
-				]
+		"default": 
+		{
+			"frames": 
+			[
+				[0, 0, 16, 16]
 			],
-			"speed": 5.0,
+			"speed": 0,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {
-			"source": "OnOffSwitch.png",
-			"rect": [
-				0.0,
-				0.0,
-				32.0,
-				32.0
-			]
-		}
+	"variations": 
+	{
+		"Day": 
+		{
+			"source": "OnOffSwitch.png", 
+			"rect": [0, 0, 64, 16]
+		},
+		"Night": 
+		{
+			"source": "OnOffSwitch.png", 
+			"rect": [0, 16, 64, 16]
+		},
+		"Space": {"link":"Night"},
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}	
 	}
 }

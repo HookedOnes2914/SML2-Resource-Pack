@@ -30,9 +30,10 @@
 		"Night": 
 		{
 			"source": "Lakitu.png",
-			"rect": [32, 0, 56, 32]
+			"rect": [0, 32, 56, 32]
 		},
 		"Space": {"link":"Night"},
-		"Volcano": {"link":"Night"}
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }

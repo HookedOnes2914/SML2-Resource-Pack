@@ -2,14 +2,13 @@
 	"properties":
 	{
 		"use_sprite": true,
-		"show_walls": true
+		"show_walls": false
 	},
 	"variations":
 	{
 		"default":
 		{
-			"source": "EndingCastleSprite.png",
-			"rect": [0.1, 0.1, 0.1, 0.1]
+			"source": "FinalCastle.png"
 		}
 	}
 }

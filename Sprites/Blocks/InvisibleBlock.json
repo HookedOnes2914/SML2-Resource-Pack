@@ -1,26 +1,18 @@
 {
-	"variations": {
-		"default": {
-			"Day": {"source": "InvisibleBlock.png", "rect": [0, 0, 16, 16]},
-			"Night": {"source": "InvisibleBlock.png", "rect": [16, 0, 16, 16]}
+	"variations": 
+	{
+		"Day": 
+		{
+			"source": "InvisibleBlock.png", 
+			"rect": [0, 0, 16, 16]
 		},
-		"Underground": {
-			"source": "InvisibleBlock.png",
-			"rect": [
-				16.0,
-				0.0,
-				16.0,
-				16.0
-			]
+		"Night": 
+		{
+			"source": "InvisibleBlock.png", 
+			"rect": [0, 16, 16, 16]
 		},
-		"Castle": {
-			"source": "InvisibleBlock.png",
-			"rect": [
-				16.0,
-				0.0,
-				16.0,
-				16.0
-			]
-		}
+		"Space": {"link":"Night"},
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}	
 	}
 }

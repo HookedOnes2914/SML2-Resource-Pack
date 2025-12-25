@@ -1,3 +1,5 @@
-Hooked - Resource pack creator, sprites
+Hooked - Resource pack creator, Sprites
 GetSwissRolled - Sprites
 GlacialSiren484 - Sprites
+Hot Cross Bun - Sprites
+VannyArts - Sprites
