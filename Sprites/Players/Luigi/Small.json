@@ -1,8 +1,4 @@
 {
-	"properties":
-	{
-		"can_air_turn": true
-	},
 	"animations": 
 	{
 		"Idle": 
@@ -129,15 +125,7 @@
 			"loop": true
 		},
 
-		"Pipe": 
-		{
-			"frames": 
-			[
-				[166, 42, 32, 40]
-			],
-			"speed": 1,
-			"loop": true
-		},	
+		"Pipe": {"link": "FaceForward"},	
 		
 		"Grow": 
 		{
@@ -174,7 +162,7 @@
 		},
 		"Space": 
 		{
-			"source": "SmallNight.png"
+			"source": "SmallSpace.png"
 		},
 		"Volcano": {"link":"Night"},
 		"GhostHouse": {"link":"Night"}

@@ -1,8 +1,4 @@
 {
-	"properties":
-	{
-		"can_air_turn": true
-	},
 	"animations": 
 	{
 		"Idle": 
@@ -129,15 +125,7 @@
 			"loop": true
 		},
 
-		"Pipe": 
-		{
-			"frames": 
-			[
-				[166, 42, 32, 40]
-			],
-			"speed": 1,
-			"loop": true
-		},	
+		"Pipe": {"link": "FaceForward"},	
 		
 		"Grow": 
 		{
@@ -160,7 +148,7 @@
 			"loop": true
 		},
 		
-		"Attack": 
+		"IdleAttack": 
 		{
 			"frames": 
 			[
@@ -169,12 +157,26 @@
 			"speed": 1,
 			"loop": true
 		},
+	
+		"CrouchAttack": {"link": "Crouch"},
 		
-		"CrouchAttack": 
+		"MoveAttack":
 		{
-			"frames": 
+			"frames":
 			[
-				[34, 83, 32, 40]
+				[34, 83, 32, 40],
+				[67, 83, 32, 40],
+				[100, 83, 32, 40]
+			],
+			"speed": 8,
+			"loop": true
+		},
+		
+		"SkidAttack":
+		{
+			"frames":
+			[
+				[133, 83, 32, 40]
 			],
 			"speed": 1,
 			"loop": true
@@ -184,7 +186,7 @@
 		{
 			"frames": 
 			[
-				[67, 83, 32, 40]
+				[166, 83, 32, 40]
 			],
 			"speed": 1,
 			"loop": true
@@ -204,7 +206,7 @@
 		},
 		"Space": 
 		{
-			"source": "FireNight.png"
+			"source": "FireSpace.png"
 		},
 		"Volcano": {"link":"Night"},
 		"GhostHouse": {"link":"Night"}
