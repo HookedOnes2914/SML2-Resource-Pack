@@ -1,10 +1,17 @@
 {
-	"animations": {
-		"default": {
-			"frames": [[0, 0, 16, 16], [16, 0, 16, 16]],
-			"speed": 10.0,
-			"loop": true
+	"variations": 
+	{
+		"Day": 
+		{
+			"source": "SuperballProjectile.png",
+			"rect": [0, 0, 8, 8]
 		}
-	},
-	"variations": {"default": {"source": "SuperballProjectile.png"}}
+		"Night": 
+		{
+			"source": "SuperballProjectile.png",
+			"rect": [0, 8, 8, 8]
+		},
+		"Space": {"link": "Night"},
+		"Volcano": {"link": "Night"},
+		"GhostHouse": {"link": "Night"}
 }

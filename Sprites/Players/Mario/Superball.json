@@ -1,233 +1,214 @@
 {
-	"animations": {
-		"AirAttack": {
-			"frames": [
-				[
-					32.0,
-					64.0,
-					32.0,
-					32.0
-				]
+	"animations": 
+	{
+		"Idle": 
+		{
+			"frames": 
+			[
+				[1, 1, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Attack": {
-			"frames": [
-				[
-					224.0,
-					32.0,
-					32.0,
-					32.0
-				]
+
+		"Crouch": 
+		{
+			"frames": 
+			[
+				[34, 1, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Climb": {
-			"frames": [
-				[
-					160.0,
-					32.0,
-					32.0,
-					32.0
-				],
-				[
-					192.0,
-					32.0,
-					32.0,
-					32.0
-				]
+
+		"Move": 
+		{
+			"frames": 
+			[
+				[67, 1, 32, 40],
+				[100, 1, 32, 40],
+				[133, 1, 32, 40],
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		},
-		"Crouch": {
-			"frames": [
-				[
-					32.0,
-					0.0,
-					32.0,
-					32.0
-				]
+		
+		"Skid": 
+		{
+			"frames": 
+			[
+				[166, 1, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Die": {
-			"frames": [
-				[
-					96.0,
-					64.0,
-					32.0,
-					32.0
-				]
+		
+		"Jump": 
+		{
+			"frames":
+			[
+				[199, 1, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
-		},
-		"Grow": {
-			"frames": [
-				[
-					0.0,
-					64.0,
-					32.0,
-					32.0
-				],
-				[
-					0.0,
-					0.0,
-					32.0,
-					32.0
-				]
+		},	
+		
+		"Fall":
+		{
+			"frames": 
+			[
+				[232, 1, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Idle": {
-			"frames": [
-				[
-					0.0,
-					0.0,
-					32.0,
-					32.0
-				]
+
+		"SwimIdle": 
+		{
+			"frames": 
+			[
+				[1, 42, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"Jump": {
-			"frames": [
-				[
-					192.0,
-					0.0,
-					32.0,
-					32.0
-				]
+		
+		"SwimUp": 
+		{
+			"frames": 
+			[
+				[34, 42, 32, 40],
+				[1, 42, 32, 40]
 			],
-			"speed": 5.0,
-			"loop": true
+			"speed": 8,
+			"loop": false
 		},
-		"Move": {
-			"frames": [
-				[
-					64.0,
-					0.0,
-					32.0,
-					32.0
-				],
-				[
-					96.0,
-					0.0,
-					32.0,
-					32.0
-				],
-				[
-					128.0,
-					0.0,
-					32.0,
-					32.0
-				]
+
+		"Climb": 
+		{
+			"frames": 
+			[
+				[67, 42, 32, 40],
+				[100, 42, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 8,
 			"loop": true
 		},
-		"Skid": {
-			"frames": [
-				[
-					160.0,
-					0.0,
-					32.0,
-					32.0
-				]
+
+		"Die":
+		{
+			"frames": 
+			[
+				[133, 42, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
 		},
-		"SwimAttack": {
-			"frames": [
-				[
-					64.0,
-					64.0,
-					32.0,
-					32.0
-				]
+
+		"FaceForward": 
+		{
+			"frames": 
+			[
+				[166, 42, 32, 40]
 			],
-			"speed": 5.0,
+			"speed": 1,
 			"loop": true
-		},
-		"SwimIdle": {
-			"frames": [
-				[
-					224.0,
-					0.0,
-					32.0,
-					32.0
-				],
-				[
-					0.0,
-					32.0,
-					32.0,
-					32.0
-				]
+		},	
+
+		"Pose": 
+		{
+			"frames": 
+			[
+				[199, 42, 32, 40]
 			],
-			"speed": 10.0,
+			"speed": 1,
 			"loop": true
 		},
-		"SwimUp": {
-			"frames": [
-				[
-					224.0,
-					0.0,
-					32.0,
-					32.0
-				],
-				[
-					0.0,
-					32.0,
-					32.0,
-					32.0
-				],
-				[
-					32.0,
-					32.0,
-					32.0,
-					32.0
-				],
-				[
-					64.0,
-					32.0,
-					32.0,
-					32.0
-				],
-				[
-					96.0,
-					32.0,
-					32.0,
-					32.0
-				],
-				[
-					128.0,
-					32.0,
-					32.0,
-					32.0
-				]
+
+		"Pipe": {"link": "FaceForward"},	
+		
+		"Grow": 
+		{
+			"frames": 
+			[
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40],
+				[1, 1, 32, 40],
+				[232, 42, 32, 40]
 			],
-			"speed": 25.0,
+			"speed": 6,
 			"loop": true
 		},
-		"FaceForward": {
-			"frames": [[128, 64, 32, 32]],
-			"speed": 1.0,
+		
+		"IdleAttack": 
+		{
+			"frames": 
+			[
+				[1, 83, 32, 40]
+			],
+			"speed": 1,
 			"loop": true
 		},
-		"Pose": {
-			"frames": [[160, 64, 32, 32]],
-			"speed": 1.0,
+	
+		"CrouchAttack": {"link": "Crouch"},
+		
+		"MoveAttack":
+		{
+			"frames":
+			[
+				[34, 83, 32, 40],
+				[67, 83, 32, 40],
+				[100, 83, 32, 40]
+			],
+			"speed": 8,
+			"loop": true
+		},
+		
+		"SkidAttack":
+		{
+			"frames":
+			[
+				[133, 83, 32, 40]
+			],
+			"speed": 1,
+			"loop": true
+		},
+		
+		"AirAttack": 
+		{
+			"frames": 
+			[
+				[166, 83, 32, 40]
+			],
+			"speed": 1,
 			"loop": true
 		}
+		
 	},
-	"variations": {
-		"default": {"source": "Superball.png"}
+	"variations": 
+	{
+		"Day": 
+		{
+			"source": "Superball.png"
+		},
+		
+		"Night": 
+		{
+			"source": "SuperballNight.png"
+		},
+		"Space": 
+		{
+			"source": "SuperballSpace.png"
+		},
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }
