@@ -1,14 +1,9 @@
 {
 	"options": {
-		"Physics": "Base Game",
 		"Brick Block": "Original",
 		"Transparency": "Dithered"
 	},
 	"value_keys": {
-		"Physics": [
-			"Base Game",
-			"Semi-Accurate"
-		],
 		"Brick Block": [
 			"Original",
 			"Consistent"

@@ -1,13 +1,9 @@
 {
-	"variations": {
-		"SMB1": {
+	"variations": 
+	{
+		"default": 
+		{
 			"source": "Font.fnt"
-		},
-		"SMBLL": {
-			"source": "FontLL.fnt"
-		},
-		"SMBANN": {
-			"link": "SMBLL"
 		}
 	}
 }

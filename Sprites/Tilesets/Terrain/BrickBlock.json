@@ -18,29 +18,35 @@
 			"Original":
 			{
 				"Day": 
-				{ 
+				{
 					"source": "BrickBlock.png", 
-					"rect": [0, 0, 16, 16] 
+					"rect": [0, 0, 16, 16]
 				},
-				"Night": 
-				{ 
-					"source": "BrickBlock.png", 
-					"rect": [0, 16, 16, 16] 
-				}
+				"Night":
+				{
+					"source": "BrickBlock.png",
+					"rect": [0, 16, 16, 16]
+				},
+				"Space": {"link":"Night"},
+				"Volcano": {"link":"Night"},
+				"GhostHouse": {"link":"Night"}		
 			},
 			
 			"Consistent":
 			{
 				"Day": 
-				{ 
+				{
 					"source": "BrickBlock.png", 
-					"rect": [16, 0, 16, 16] 
+					"rect": [16, 0, 16, 16]
 				},
-				"Night": 
-				{ 
-					"source": "BrickBlock.png", 
-					"rect": [16, 16, 16, 16] 
-				}
+				"Night":
+				{
+					"source": "BrickBlock.png",
+					"rect": [16, 16, 16, 16]
+				},
+				"Space": {"link":"Night"},
+				"Volcano": {"link":"Night"},
+				"GhostHouse": {"link":"Night"}		
 			}	
 		}
 	}

@@ -1,12 +1,12 @@
 {
     "Normal": 
 	{
-        "source": "Overworld.wav",
+        "source": "Overworld.mp3",
         "loop": 1.598
     },
     "Hurry": 
 	{
-        "source": "OverworldHurry.wav",
+        "source": "OverworldHurry.mp3",
         "loop": 1.7578
     }
 }
