@@ -34,15 +34,15 @@
 				"source": "DesertNight.png"
 			}
 		},
-		"Snow": {
-			"SMB1": {
+		"Snow": 
+		{
+			"Day": 
+			{
 				"source": "Snow.png"
 			},
-			"SMBLL": {
-				"source": "SnowLL.png"
-			},
-			"SMBANN": {
-				"source": "SnowANN.png"
+			"Night": 
+			{
+				"source": "SnowNight.png"
 			}
 		},
 		"Jungle": {
