@@ -1,9 +1,18 @@
 {
 	"variations": 
 	{
-		"default": 
+		"config:Font": 
 		{
-			"source": "Font.fnt"
+			"Blocky": 
+			{
+				"source": "FontBlocky.fnt",
+				"rect": [0, 0, 256, 256]
+			},
+			"Outlined": 
+			{
+				"source": "FontOutlined.fnt",
+				"rect": [0, 0, 256, 256]
+			}
 		}
 	}
 }

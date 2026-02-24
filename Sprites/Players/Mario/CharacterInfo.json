@@ -102,10 +102,10 @@
 				"COLLISION_SIZE": [12, 14],
 				"CROUCH_COLLISION_SIZE": [12, 14],
 				"CAN_BREAK_BRICKS": false,
-				"CAN_BE_WALL_EJECTED": false,
+				"CAN_BE_WALL_EJECTED": false
 			},
 			"Big": {},
-			"Fire": {},
+			"Fire": {}
 		},
 		"ENDING_PARAMETERS": 
 		{
@@ -128,11 +128,11 @@
 				
 				"DOOR_POSE_OFFSET": 0,
 				"TOAD_POSE_OFFSET": -12,
-				"PEACH_POSE_OFFSET": -12,
+				"PEACH_POSE_OFFSET": -12
 			},
 			"Small": {},
 			"Big": {},
-			"Fire": {},
+			"Fire": {}
 		},
 		"DEATH_PARAMETERS": 
 		{
@@ -144,9 +144,9 @@
 				"DEATH_DECEL": 0,
 				"DEATH_JUMP_SPEED": 175,
 				"DEATH_FALL_GRAVITY": 5,
-				"DEATH_MAX_FALL_SPEED": 200,
+				"DEATH_MAX_FALL_SPEED": 200
 			},
-			"Fire": {},
+			"Fire": {}
 		},
 		"COSMETIC_PARAMETERS": 
 		{
@@ -163,36 +163,33 @@
 				"RAINBOW_FX_SPEED": 16,
 				
 				"ICE_SPEED_MOD": 1.5,
-				
-				"WALK_SFX": "walk",
-				"RUN_SFX": "run",
-				"SKID_SFX": "skid",
+
 				"JUMP_SFX": "big_jump",
 				"TRAMPOLINE_SFX": "big_trampoline",
 				"TRAMPOLINE_USED_SFX": "big_used_trampoline",
 				"GROUNDED_WALK_SFX": false,
-				"GROUNDED_RUN_SFX": false,
+				"GROUNDED_RUN_SFX": false
 			},
 			"Small": 
 			{
 				"WING_OFFSET": [0, 10],
-				"RAINBOW_POWERUP_FX": false,
-				"JUMP_SFX": "small_jump",
-				"TRAMPOLINE_SFX": "small_trampoline",
-				"TRAMPOLINE_USED_SFX": "small_used_trampoline",
+				"JUMP_SFX": "big_jump",
+				"TRAMPOLINE_SFX": "big_trampoline",
+				"TRAMPOLINE_USED_SFX": "big_used_trampoline",
+				"RAINBOW_POWERUP_FX": false
 			},
 			"Big": 
 			{
-				"RAINBOW_POWERUP_FX": false,
+				"RAINBOW_POWERUP_FX": false
 			},
 			"Fire": 
 			{
-				"RAINBOW_POWERUP_FX": false,
+				"RAINBOW_POWERUP_FX": false
 			},
 			"Superball": 
 			{
-				"RAINBOW_POWERUP_FX": false,
-			},
-		},
-	},
+				"RAINBOW_POWERUP_FX": false
+			}
+		}
+	}
 }

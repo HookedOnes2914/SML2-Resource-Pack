@@ -1,1 +1,18 @@
-{"variations": {"source": "ChainChompPost.png"}}
+{
+    "variations": 
+    {
+        "Day": 
+        {
+            "source": "ChainChompPost.png", 
+            "rect": [0, 0, 16, 16]
+        },
+        "Night":
+        {
+            "source": "ChainChompPost.png",
+            "rect": [0, 16, 16, 16]
+        },
+        "Space": {"link":"Night"},
+        "Volcano": {"link":"Night"},
+        "GhostHouse": {"link":"Night"}		
+    }
+}

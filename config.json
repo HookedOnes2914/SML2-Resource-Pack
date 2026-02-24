@@ -1,7 +1,8 @@
 {
 	"options": {
 		"Brick Block": "Original",
-		"Transparency": "Dithered"
+		"Transparency": "Dithered",
+		"Font": "Outlined"
 	},
 	"value_keys": {
 		"Brick Block": [
@@ -11,6 +12,10 @@
 		"Transparency": [
 			"Transparent",
 			"Dithered"
+		],
+		"Font": [
+			"Blocky",
+			"Outlined"
 		]
 	}
 }
