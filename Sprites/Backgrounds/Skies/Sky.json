@@ -33,6 +33,11 @@
 				}
 			},
 
+			"Desert":
+			{
+				"source": "Desert.png"
+			},
+
 			"Beach":
 			{
 				"SMB1": {"source": "BeachSky.png"},
@@ -78,6 +83,11 @@
 						"loop": true
 					}
 				}
+			},
+
+			"Desert":
+			{
+				"source": "DesertNight.png"
 			}
 		},
 
