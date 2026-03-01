@@ -5,22 +5,7 @@
 		{
 			"Overworld": 
 			{
-				"source": "Overworld.png",
-				"animations": 
-				{
-					"default": 
-					{
-						"frames": 
-						[
-							[0, 0, 512, 512], 
-							[528, 0, 512, 512],
-							[0, 0, 512, 512],
-							[1056, 0, 512, 512]
-						],
-						"speed": 8,
-						"loop": true
-					}
-				}
+				"source": "Overworld.png"
 			},
 			
 			"Underground":
@@ -133,22 +118,7 @@
 		{
 			"Overworld": 
 			{
-				"source": "OverworldNight.png",
-				"animations": 
-				{
-					"default": 
-					{
-						"frames": 
-						[
-							[0, 0, 512, 512], 
-							[528, 0, 512, 512],
-							[0, 0, 512, 512],
-							[1056, 0, 512, 512]
-						],
-						"speed": 8,
-						"loop": true
-					}
-				}
+				"source": "OverworldNight.png"
 			},
 				
 			"Underground":

@@ -8,10 +8,31 @@
 	{
 		 "Day": 
 		 {
-			"default": 
+			"default":
 			{
-				"source": "DaySky.png"
+				"source": "Clouds.png"
 			},
+
+			"Overworld": 
+			{
+				"source": "Overworld.png",
+				"animations": 
+				{
+					"default": 
+					{
+						"frames": 
+						[
+							[0, 0, 512, 512], 
+							[513, 0, 512, 512],
+							[0, 0, 512, 512],
+							[1026, 0, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
+				}
+			},
+
 			"Beach":
 			{
 				"SMB1": {"source": "BeachSky.png"},
@@ -31,11 +52,38 @@
 			},
 			"GhostHouse": {"link": "Underground"}
 		},
+
 		"Night": 
 		{
-			"source": "NightStars.png",
-			"properties": {"sky_scroll_speed": 0}
+			"default":
+			{
+				"source": "NightStars.png"
+			},
+
+			"Overworld": 
+			{
+				"source": "OverworldNight.png",
+				"animations": 
+				{
+					"default": 
+					{
+						"frames": 
+						[
+							[0, 0, 512, 512], 
+							[513, 0, 512, 512],
+							[0, 0, 512, 512],
+							[1026, 0, 512, 512]
+						],
+						"speed": 8,
+						"loop": true
+					}
+				}
+			}
 		},
-		"Space": {"link":"Night"}
+
+		"Space": 
+		{
+			"source": "NightStars.png"
+		}
 	}
 }
