@@ -13,6 +13,8 @@
 				"source": "Clouds.png"
 			},
 
+			"CoinHeaven": {"link":"default"},
+
 			"Overworld": 
 			{
 				"source": "Overworld.png",
@@ -38,24 +40,10 @@
 				"source": "Desert.png"
 			},
 
-			"Beach":
+			"Snow":
 			{
-				"SMB1": {"source": "BeachSky.png"},
-				"SMBLL": {"source": "BeachSkyLL.png"}
-			},
-			"Autumn": {
-				"SMB1": {"source": "AutumnSky.png"},
-				"SMBLL": {"source": "AutumnSkyLL.png"}
-			},
-			"Volcano": {
-				"SMB1": {"source": "VolcanoSky.png"},
-				"SMBLL": {"source": "VolcanoSkyLL.png"}
-			},
-			"Underground": {
-				"SMB1": {"source": "TheVoid.png"},
-				"SMBLL": {"source": "TheVoidLL.png"}
-			},
-			"GhostHouse": {"link": "Underground"}
+				"source": "Snow.png"
+			}
 		},
 
 		"Night": 
@@ -65,6 +53,8 @@
 				"source": "NightStars.png"
 			},
 
+			"CoinHeaven": {"link":"default"},
+			
 			"Overworld": 
 			{
 				"source": "OverworldNight.png",
@@ -88,6 +78,11 @@
 			"Desert":
 			{
 				"source": "DesertNight.png"
+			},
+
+			"Snow":
+			{
+				"source": "SnowNight.png"
 			}
 		},
 
