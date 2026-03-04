@@ -1,7 +1,17 @@
 {
 	"animations":
 	{
-		"default":
+		"Idle":
+		{
+			"frames":
+			[
+				[0, 0, 16, 16]
+			],
+			"speed": 0,
+			"loop": true
+		},
+		
+		"Turn":
 		{
 			"frames":
 			[
