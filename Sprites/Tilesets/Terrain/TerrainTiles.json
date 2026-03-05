@@ -45,15 +45,15 @@
 				"source": "SnowNight.png"
 			}
 		},
-		"Jungle": {
-			"SMB1": {
+		"Jungle": 
+		{
+			"Day": 
+			{
 				"source": "Jungle.png"
 			},
-			"SMBLL": {
-				"source": "JungleLL.png"
-			},
-			"SMBANN": {
-				"source": "JungleANN.png"
+			"Night": 
+			{
+				"source": "JungleNight.png"
 			}
 		},
 		"Beach": {
