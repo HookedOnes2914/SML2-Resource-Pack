@@ -1,3 +1,14 @@
 {
-	"variations": {"source": "LevelFinish.mp3"}
+	"variations": 
+	{
+		"default":
+		{
+			"source": "LevelFinish.mp3"
+		},
+
+		"Bonus":
+		{
+			"source": "LevelFinishBonus.mp3"
+		}
+	}
 }
