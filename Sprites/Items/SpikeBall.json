@@ -1,9 +1,18 @@
 {
 	"variations": 
 	{
-		"default": 
+		"Day": 
 		{
-			"source": "SpikeBall.png"
-		}
+			"source": "SpikeBall.png",
+			"rect": [0, 0, 16, 16]
+		},
+		"Night": 
+		{
+			"source": "SpikeBall.png",
+			"rect": [0, 16, 16, 16]
+		},
+		"Space": {"link":"Night"},
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }
