@@ -1,8 +1,4 @@
 {
-	"properties": 
-	{
-		"can_turn": false
-	},
 	"animations": 
 	{
 		"Idle": 
