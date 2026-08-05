@@ -1,34 +1,44 @@
 {
-	"animations": {
-		"Idle": {
-			"frames": [
-				[0, 0, 32, 32],
-				[32, 0, 32, 32],
-				[64, 0, 32, 32],
-				[96, 0, 32, 32]
+	"animations": 
+	{
+		"Idle": 
+		{
+			"frames": 
+			[
+				[0, 0, 32, 32]
 			],
-			"speed": 10.0,
+			"speed": 0,
 			"loop": true
 		},
-		"Spin": {
-			"frames": [
-				[0, 0, 32, 32],
-				[32, 0, 32, 32],
-				[64, 0, 32, 32],
-				[96, 0, 32, 32]
+
+		"Spin": 
+		{
+			"frames": 
+			[
+				[0, 32, 32, 32],
+				[32, 32, 32, 32],
+				[64, 32, 16, 32],
+				[80, 32, 32, 32]
 			],
-			"speed": 20.0,
+			"speed": 16,
 			"loop": true
 		}
 	},
-	"variations": {
-		"default": {"source": "30Coin.png", "rect": [0, 0, 128, 32]},
-		"Underground": {"source": "30Coin.png", "rect": [32, 0, 128, 32]},
-		"Castle": {"source": "30Coin.png", "rect": [64, 0, 128, 32]},
-		"Snow": {"source": "30Coin.png", "rect": [96, 0, 128, 32]},
-		"Space": {"source": "30Coin.png", "rect": [128, 0, 128, 32]},
-		"Volcano": {"source": "30Coin.png", "rect": [160, 0, 128, 32]},
-		"Bonus": {"source": "30Coin.png", "rect": [192, 0, 128, 32]},
-		"GhostHouse": {"link": "Underground"}
+
+	"variations": 
+	{
+		"Day": 
+		{
+			"source": "30Coin.png",
+			"rect": [0, 0, 112, 64]
+		},
+		"Night": 
+		{
+			"source": "30Coin.png",
+			"rect": [0, 64, 112, 64]
+		},
+		"Space": {"link":"Night"},
+		"Volcano": {"link":"Night"},
+		"GhostHouse": {"link":"Night"}
 	}
 }
